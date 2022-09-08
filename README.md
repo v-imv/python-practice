@@ -1,2 +1,3 @@
-# python-practice
-A folder dedicated to practising basic Python.
+# Python Practice Folder
+
+This is a basic folder dedicated to practising Python.
