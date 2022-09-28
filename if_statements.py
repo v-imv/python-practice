@@ -14,3 +14,16 @@ if country.upper() == "CANADA":
 else:
     tax = 0.0
 print("Your Tax Rate Would Be: " + str(tax))
+
+# Boolean True Evaluation
+
+uk_citizen = ("UNITED KINGDOM", "UK", "ENGLAND", "WALES", "NORTHERN IRELAND", "SCOTLAND")
+
+if country.upper() in uk_citizen:
+    uk = True
+else:
+    uk = False
+
+# If uk evaluates to true, execute print statement, no need to explicitly type if uk = True:
+if uk:
+    print("Cheerio!")
